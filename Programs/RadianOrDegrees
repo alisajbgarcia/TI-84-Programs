@@ -1,1 +1,10 @@
-
+Menu("FIND:", "DEGREES", A, "RADIANS", B)
+Lbl A
+Input "RADIANS?", R
+Disp (R*(180/π)), "DEGREES"
+Pause
+Stop
+Lbl B
+Input "DEGREES?", D
+Disp "RADIANS = ", (D/180)▶Frac, "π"
+Pause
