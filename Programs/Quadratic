@@ -1,1 +1,7 @@
-
+Disp "A + Bi MODE MUST BE ON"
+Pause
+Disp "AX² + BX + C"
+Prompt A,B,C
+Disp "SOLUTIONS = "
+Disp ((-B + √(B² - 4AC))/(2A)) ▶Frac
+Disp ((-B - √(B² - 4AC))/(2A)) ▶Frac
