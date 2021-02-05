@@ -1,1 +1,9 @@
-
+Input "X1?", A
+Input "Y1?", B
+Input "X2?", C
+Input "Y2?", D
+(D - B) / (C - A) → M
+-A * M + B → E
+Disp "Y = ", M, "X + ", E
+Pause
+Stop
